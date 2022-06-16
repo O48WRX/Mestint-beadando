@@ -1,0 +1,16 @@
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\bin\Debug\net5.0\7x7AI.exe
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\bin\Debug\net5.0\7x7AI.deps.json
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\bin\Debug\net5.0\7x7AI.runtimeconfig.json
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\bin\Debug\net5.0\7x7AI.runtimeconfig.dev.json
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\bin\Debug\net5.0\7x7AI.dll
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\bin\Debug\net5.0\ref\7x7AI.dll
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\bin\Debug\net5.0\7x7AI.pdb
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\obj\Debug\net5.0\7x7AI.csproj.AssemblyReference.cache
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\obj\Debug\net5.0\7x7AI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\obj\Debug\net5.0\7x7AI.AssemblyInfoInputs.cache
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\obj\Debug\net5.0\7x7AI.AssemblyInfo.cs
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\obj\Debug\net5.0\7x7AI.csproj.CoreCompileInputs.cache
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\obj\Debug\net5.0\7x7AI.dll
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\obj\Debug\net5.0\ref\7x7AI.dll
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\obj\Debug\net5.0\7x7AI.pdb
+D:\Git Repo\Mestint\Mestint-beadando\7x7AI\7x7AI\obj\Debug\net5.0\7x7AI.genruntimeconfig.cache
