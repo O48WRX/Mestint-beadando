@@ -22,6 +22,13 @@ namespace _7x7AI
             this.sides = sides;
         }
 
+
+        /*                     _____
+         *                  ___| 0 |___
+         *                 | 1 | 2 | 3 |
+         *                     | 4 |
+         */
+
         public string[,] MoveUp(string[,] map, byte[] playerLocation, out string succes, out byte[] playerLocation1)
         {
             if (playerLocation[0] == 7 && playerLocation[1] == 3)
@@ -59,6 +66,12 @@ namespace _7x7AI
             playerLocation1 = playerLocation;
             return map;
         }
+
+        /*                     _____
+         *                  ___| 0 |___
+         *                 | 1 | 2 | 3 |
+         *                     | 4 |
+         */
         public string[,] MoveDown(string[,] map, byte[] playerLocation, out string succes, out byte[] playerLocation1)
         {
             if (playerLocation[0] == 7 && playerLocation[1] == 3)
@@ -96,6 +109,12 @@ namespace _7x7AI
             playerLocation1 = playerLocation;
             return map;
         }
+
+        /*                     _____
+         *                  ___| 0 |___
+         *                 | 1 | 2 | 3 |
+         *                     | 4 |
+         */
         public string[,] MoveLeft(string[,] map, byte[] playerLocation, out string succes, out byte[] playerLocation1)
         {
             if (playerLocation[0] == 7 && playerLocation[1] == 3)
@@ -134,6 +153,12 @@ namespace _7x7AI
             succes = "failed";
             return map;
         }
+
+        /*                     _____
+         *                  ___| 0 |___
+         *                 | 1 | 2 | 3 |
+         *                     | 4 |
+         */
         public string[,] MoveRight(string[,] map, byte[] playerLocation, out string succes, out byte[] playerLocation1)
         {
             if (playerLocation[0] == 7 && playerLocation[1] == 3)
@@ -173,6 +198,8 @@ namespace _7x7AI
             succes = "failed";
             return map;
         }
+
+
 
         public bool TryMoveUp(string[,] map, byte[] playerLocation)
         {
