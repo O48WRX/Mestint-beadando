@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _7x7AI
 {
-    public enum Color { kék, piros }
+    public enum Color { blue, red }
     class MovingCube
     {
         Color[] sides = new Color[5];
@@ -37,22 +37,22 @@ namespace _7x7AI
                 playerLocation1 = playerLocation;
                 return map;
             }
-            if (map[playerLocation[0] - 1, playerLocation[1]] != " H " && sides[0] != Color.piros)
+            if (map[playerLocation[0] - 1, playerLocation[1]] != " H " && sides[0] != Color.red)
             {
                 switch (red)
                 {
                     case 2:
                         {
                             red = 0;
-                            sides[0] = Color.piros;
-                            sides[2] = Color.kék;
+                            sides[0] = Color.red;
+                            sides[2] = Color.blue;
                             break;
                         }
                     case 4:
                         {
                             red = 2;
-                            sides[2] = Color.piros;
-                            sides[4] = Color.kék;
+                            sides[2] = Color.red;
+                            sides[4] = Color.blue;
                             break;
                         }
                 }
@@ -80,22 +80,22 @@ namespace _7x7AI
                 playerLocation1 = playerLocation;
                 return map;
             }
-            if (map[playerLocation[0] + 1, playerLocation[1]] != " H " && sides[4] != Color.piros)
+            if (map[playerLocation[0] + 1, playerLocation[1]] != " H " && sides[4] != Color.red)
             {
                 switch (red)
                 {
                     case 0:
                         {
                             red = 2;
-                            sides[2] = Color.piros;
-                            sides[0] = Color.kék;
+                            sides[2] = Color.red;
+                            sides[0] = Color.blue;
                             break;
                         }
                     case 2:
                         {
                             red = 4;
-                            sides[4] = Color.piros;
-                            sides[2] = Color.kék;
+                            sides[4] = Color.red;
+                            sides[2] = Color.blue;
                             break;
                         }
                 }
@@ -123,23 +123,23 @@ namespace _7x7AI
                 playerLocation1 = playerLocation;
                 return map;
             }
-            if (map[playerLocation[0], playerLocation[1] - 1] != " H " && sides[1] != Color.piros)
+            if (map[playerLocation[0], playerLocation[1] - 1] != " H " && sides[1] != Color.red)
             {
                 switch (red)
                 {
                     case 2:
                         {
                             red = 1;
-                            sides[1] = Color.piros;
-                            sides[2] = Color.kék;
+                            sides[1] = Color.red;
+                            sides[2] = Color.blue;
                             break;
                         }
                     case 3:
                         {
 
                             red = 2;
-                            sides[2] = Color.piros;
-                            sides[3] = Color.kék;
+                            sides[2] = Color.red;
+                            sides[3] = Color.blue;
                             break;
                         }
                 }
@@ -167,7 +167,7 @@ namespace _7x7AI
                 playerLocation1 = playerLocation;
                 return map;
             }
-            if (map[playerLocation[0], playerLocation[1] + 1] != " H " && sides[3] != Color.piros)
+            if (map[playerLocation[0], playerLocation[1] + 1] != " H " && sides[3] != Color.red)
             {
                 switch (red)
                 {
@@ -175,16 +175,16 @@ namespace _7x7AI
                         {
 
                             red = 2;
-                            sides[2] = Color.piros;
-                            sides[1] = Color.kék;
+                            sides[2] = Color.red;
+                            sides[1] = Color.blue;
                             break;
                         }
                     case 2:
                         {
 
                             red = 3;
-                            sides[3] = Color.piros;
-                            sides[2] = Color.kék;
+                            sides[3] = Color.red;
+                            sides[2] = Color.blue;
                             break;
                         }
                 }
@@ -203,7 +203,7 @@ namespace _7x7AI
 
         public bool TryMoveUp(string[,] map, byte[] playerLocation)
         {
-            if (map[playerLocation[0] - 1, playerLocation[1]] != " H " && sides[0] != Color.piros)
+            if (map[playerLocation[0] - 1, playerLocation[1]] != " H " && sides[0] != Color.red)
             {
                 return true;
             }
@@ -211,7 +211,7 @@ namespace _7x7AI
         }
         public bool TryMoveDown(string[,] map, byte[] playerLocation)
         {
-            if (map[playerLocation[0] + 1, playerLocation[1]] != " H " && sides[4] != Color.piros)
+            if (map[playerLocation[0] + 1, playerLocation[1]] != " H " && sides[4] != Color.red)
             {
 
                 return true;
@@ -220,7 +220,7 @@ namespace _7x7AI
         }
         public bool TryMoveLeft(string[,] map, byte[] playerLocation)
         {
-            if (map[playerLocation[0], playerLocation[1] - 1] != " H " && sides[1] != Color.piros)
+            if (map[playerLocation[0], playerLocation[1] - 1] != " H " && sides[1] != Color.red)
             {
                 return true;
             }
@@ -228,7 +228,7 @@ namespace _7x7AI
         }
         public bool TryMoveRight(string[,] map, byte[] playerLocation)
         {
-            if (map[playerLocation[0], playerLocation[1] + 1] != " H " && sides[3] != Color.piros)
+            if (map[playerLocation[0], playerLocation[1] + 1] != " H " && sides[3] != Color.red)
             {
                 return true;
             }

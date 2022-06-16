@@ -26,7 +26,7 @@ namespace _7x7AI
 
         static byte[] playerLocation = PlayerStartingLocation;
 
-        static MovingCube player = new MovingCube(new Color[] { Color.kék, Color.kék, Color.piros, Color.kék, Color.kék });
+        static MovingCube player = new MovingCube(new Color[] { Color.blue, Color.blue, Color.red, Color.blue, Color.blue });
 
         static int WaitTime = 500;
         static void Main(string[] args)
@@ -218,7 +218,7 @@ namespace _7x7AI
                                       { " H ","   ", " H ", " C ", "   ", "   ", "   ", "   "," H " },
                                       { " H "," H ", " H ", " H ", " H ", " H ", " H ", " H "," H " }
                 };
-                player = new MovingCube(new Color[] { Color.kék, Color.kék, Color.piros, Color.kék, Color.kék });
+                player = new MovingCube(new Color[] { Color.blue, Color.blue, Color.red, Color.blue, Color.blue });
 
                 TrialAndError(waitBetweenSteps);
 
@@ -242,7 +242,7 @@ namespace _7x7AI
                                       { " H ","   ", " H ", " C ", "   ", "   ", "   ", "   "," H " },
                                       { " H "," H ", " H ", " H ", " H ", " H ", " H ", " H "," H " }
                 };
-                player = new MovingCube(new Color[] { Color.kék, Color.kék, Color.piros, Color.kék, Color.kék });
+                player = new MovingCube(new Color[] { Color.blue, Color.blue, Color.red, Color.blue, Color.blue });
 
                 UpgradedTrialAndError(waitBetweenSteps);
 
